@@ -122,4 +122,16 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+#PREGUNTAS:
+#1. ¿Por qué una huella puede obtener un puntaje bajo aunque pertenezca al mismo usuario?
+#Esto puede ocurrir debido a factores como presión desigual del dedo, sudor, suciedad, rotación, 
+# iluminación deficiente o mala calidad del sensor. Estas condiciones afectan la detección de puntos clave,
+#  reduciendo el número de coincidencias válidas.
+
+#2. ¿Cómo escalar el sistema para 80.000 huellas usando la nube?
+#Se puede emplear procesamiento paralelo en la nube, microservicios, 
+# indexación de descriptores, bases de datos biométricas optimizadas y procesamiento con GPU,
+#  reduciendo drásticamente el tiempo de búsqueda. 
+
 #Juan Jose Londono Martinez :D
